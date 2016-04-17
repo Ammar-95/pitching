@@ -20,6 +20,15 @@ ActiveRecord::Schema.define(version: 20160403114813) do
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
     t.string   "image"
-  end
+  	end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "weight"
+    t.string   "type_of_sport"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.string   "image"
+	end
 
 end

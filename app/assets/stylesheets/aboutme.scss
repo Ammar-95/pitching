@@ -1,110 +1,124 @@
-* { 
-	font-family: arial;
+* {
+    font-family: arial;
 }
 
-  a {
-  	color:red;
-  }
-  p {
-  	background: #000;
-  	color: white;
-  	padding: 10px 0px 10px 10px;
-  	width:155px ;
-  	 
-  }
-
-
-* { 
-	
-	   color: red;
-}
-
- body {
-	   background-image: url("salsa.jpg");
-	   background-size: 100%;
-
-}
-
-
-.secondary {
-	background: #999;
-	color: #323;	
-}
-
-#special {
-	background: #234;
-	color:#777;
-}
-
-
-   header h1 {
-	background: #555;
-	color: white;
-	margin: 0;
-	display: inline; 
-	padding: 0px;
-	width: 100px;
-}
-
-   header {
-   
-   	color:white;
-   	padding: 0;
-   }
-
-nav ul{
-	margin: 0;
-}
-nav ul li {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0px;
-	padding: 5px 15px;
-	background: #000;
-	color: white;
-	float: right;
-
-} 
-  nav ul li a{
-  	color: yellow;
-  }
-
-body {
-	margin: 10px;
-}
-
-.col {
-	float: left;
-	background: #333;
-	padding: 20px;
-	margin: 5px;
-	width:50;
-}
-
-	ol{
-		clear: both;
-		width:50px ;
-}
-br {
-	width: 100px;
-}
-
-footer {
-	clear: both;
-	padding: 0 0 100px 0;
-	position: absolute;
-	bottom: 0px;
-	float: right;
+a {
+    color: red;
+    float: left;
 }
 
 p {
-	border-style: dotted solid;
+    background: #000;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    width: 155px;
 }
 
-  p {
-  	text-align: center;
-  }
+* {
+    color: blue;
+}
 
-  .about-me-text{
-  	text-align: center
-  } 
+body {
+   background-image: url("salsa.jpg");
+    background-size: 100%;
+    margin: 0;
+
+}
+
+.secondary {
+    background: #999;
+    color: #234;
+}
+
+#special {
+    background: #111;
+    color: #453;
+}
+
+header h1 {
+    background: #none;
+    color: white;
+    margin: 0;
+    display: inline;
+    padding: 0px;
+    width: 100px;
+}
+
+header {
+    color: white;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px 15px;
+    background: #none;
+    color: white;
+    float: right;
+}
+
+nav ul li a {
+    color: pink;
+}
+
+.col {
+    float: left;
+    background: #000;
+    padding: 20px;
+    margin: 5px;
+    width: 50;
+}
+
+ol {
+    clear: both;
+    width: 50px;
+}
+
+br {
+    width: 100px;
+}
+
+footer {
+    clear: both;
+    padding: 0 0 10px 0;
+    position: absolute;
+    bottom: 0px;
+    float: right;
+}
+
+p {
+    border-style: dotted solid;
+}
+
+p {
+    text-align: center;
+}
+
+.hello{
+
+   background-color: lightgray;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+.magic{
+	&:hover{
+	   .magic2{
+	   	  background-color: blue;
+	   	  display: list-item;
+	   	}
+	   }
+	   }
+	   .magic2{
+	   	position: absolute;
+	   	right: 500px;
+	   	top: 100px;
+	   	display: none;
+	   }
